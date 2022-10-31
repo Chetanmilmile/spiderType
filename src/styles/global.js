@@ -31,7 +31,7 @@ body{
     min-height: 100vh;
     padding:1rem;
     width:100vw;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: cursive;
 
 }
 .type-box{
