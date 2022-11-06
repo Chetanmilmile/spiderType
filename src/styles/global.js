@@ -156,7 +156,7 @@ body{
 }
 
 .title{
-    font-size:50px;
+    font-size:40px;
     color:green;
 
     font-family: "Lucida Console", "Courier New", monospace;
