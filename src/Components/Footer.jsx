@@ -41,7 +41,7 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-links" >
-                <a href='https://github.com/utkarsh-dubey/typing-test-website' target="_blank">
+                <a href='https://github.com/Chetanmilmile/spiderType' target="_blank">
                     <GitHubIcon />
                 </a>
             </div> 

@@ -261,7 +261,7 @@ const TypingBox = (props) => {
 
   return (
     <div>
-            {/* <CapsLockWarning open={capsLocked}/> */}
+             <CapsLockWarning open={capsLocked}/>
             <UpperMenu countDown={countDown}/>
 
           {!testOver ? (<div className="type-box" onClick={focusInput}>
