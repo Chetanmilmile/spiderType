@@ -9,7 +9,7 @@ const HelpPage = () => {
     <div className='welcome'>
         <h1>Agreement</h1>
     
-   <p> By accessing this Website, accessible from monkeytype.com, you are agreeing to be bound by these Website Terms of Service and agree that you are responsible for the agreement in accordance with any applicable local laws. IF YOU DO NOT AGREE TO ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT, YOU ARE NOT PERMITTED TO ACCESS OR USE OUR SERVICES.</p>
+   <p> By accessing this Website, accessible from Spidertype.com, you are agreeing to be bound by these Website Terms of Service and agree that you are responsible for the agreement in accordance with any applicable local laws. IF YOU DO NOT AGREE TO ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT, YOU ARE NOT PERMITTED TO ACCESS OR USE OUR SERVICES.</p>
   
   
 <h1>Privacy Policy</h1>  
