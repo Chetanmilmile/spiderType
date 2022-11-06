@@ -12,7 +12,7 @@ const Stats = ({wpm, accuracy, correctChars, incorrectChars, extraChars, missedC
 
     var timeSet = new Set();
     
-    // const setAlert = useAlert();
+    const setAlert = useAlert();
 
     const newGraph = graphData.filter((i)=>{
         if(! timeSet.has(i[0])){
@@ -37,17 +37,17 @@ const Stats = ({wpm, accuracy, correctChars, incorrectChars, extraChars, missedC
         }
         else{
             
-            // setAlert({
-            //     open:true,
-            //     type:'error',
-            //     message:'invalid test'
-            // });
+            setAlert({
+                open:true,
+                type:'error',
+                message:'invalid test'
+            });
             setTimeout(()=>{
-                // setAlert({
-                //     open:false,
-                //     type: "",
-                //     message: ""
-                // })
+                setAlert({
+                    open:false,
+                    type: "",
+                    message: ""
+                })
             },2000);
 
         }
