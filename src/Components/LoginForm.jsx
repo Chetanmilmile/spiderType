@@ -30,7 +30,7 @@ const LoginForm = ({handleClose}) => {
         display:"flex",
         flexDirection:"column",
         gap:"20px",
-        backgroundColor:"white"
+        backgroundColor:"pink"
      }}>
         <TextField
         variant="outlined"
@@ -48,7 +48,7 @@ const LoginForm = ({handleClose}) => {
         <Button
         variant="contained"
         size="large"
-        style={{backgroundColor:"red"}}
+        style={{backgroundColor:"blue"}}
         onClick = {handleSubmit}>
             Login
 
